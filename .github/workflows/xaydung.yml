@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
-  ROM_NAME: Generic
+  ROM_URL: https://sourceforge.net/projects/mystic-gsi-updates/files/MIUI/Miui-sweet-13-V14.0.9.0.TKFMIXM-AB-20240527-MysticGSI.zip/download
+  ROM_NAME: MIUI
   BUILD_AB: true
   BUILD_Aonly: false
-  ROM_AONLY: ROM_A.7z
-  ROM_AB: ROM_AB.7z
+  ROM_AONLY: MIUI_14_Samsung_Note_10_Plus_5G_Korean_Port_A.7z
+  ROM_AB: MIUI_14_Samsung_Note_10_Plus_5G_Korean_Port_AB.7z
 
 jobs:
   build:
